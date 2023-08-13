@@ -11,8 +11,7 @@ public class Length implements Comparable<Length> {
 	}
 	
 	public Length(Length cur) {
-		this.amount = cur.getAmount();
-		this.unit = cur.getUnit();
+		this(cur.getAmount(), cur.getUnit());
 	}
 	
 	
